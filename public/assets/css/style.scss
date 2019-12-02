@@ -1,0 +1,86 @@
+$button-color: #FA8334;
+$dark-text: #271033;
+$light-text: #388697;
+$background-color: #FFE882;
+$list-background: #FFFD77;
+
+body {
+    background-color: $background-color;
+    color: $dark-text;
+}
+
+.btn {
+    background-color: $button-color !important;
+}
+
+#btn-sml {
+    background-color: $button-color;
+    line-height: 20px;
+    height: 23px;
+    font-size: 12px;
+}
+
+#btn-sml:hover {
+    background-color: rgb(255, 158, 94);
+}
+
+label {
+    color: $light-text !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid $button-color !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: $button-color !important;
+}
+
+[class*=devoured-burgers] {
+    margin: 0 3%;
+}
+
+li {
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    background: $list-background;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+.burger-lists {
+    display: flex;
+    justify-content: space-around;
+}
+
+.change-devoured {
+    float: right;
+}
+
+.burger-add {
+    display: flex;
+    border: 1px solid #d1d1d1;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}

@@ -1,7 +1,47 @@
+body {
+  background-color: #FFE882;
+  color: #271033;
+}
+
+.btn {
+  background-color: #FA8334 !important;
+}
+
+#btn-sml {
+  background-color: #FA8334;
+  line-height: 20px;
+  height: 23px;
+  font-size: 12px;
+}
+
+#btn-sml:hover {
+  background-color: #ff9e5e;
+}
+
+label {
+  color: #388697 !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid #FA8334 !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: #FA8334 !important;
+}
+
+[class*=devoured-burgers] {
+  margin: 0 3%;
+}
+
 li {
+  height: 35px;
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #FFFD77;
 }
 
 .label {
@@ -23,11 +63,24 @@ li {
 }
 
 .burger-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .change-devoured {
   float: right;
-  margin-left: 10px;
 }
+
+.burger-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #d1d1d1;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+}
+/*# sourceMappingURL=style.css.map */
