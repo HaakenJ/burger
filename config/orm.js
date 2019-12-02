@@ -1,4 +1,4 @@
-const connection = require("connection");
+const connection = require("./connection");
 
 function printQuestionMarks(num) {
     var arr = [];
@@ -47,6 +47,7 @@ const orm = {
         queryString += " (";
         queryString += cols.toString();
         queryString += ") ";
+        queryString += "VALUES "
         queryString += printQuestionMarks(vals.length);
         queryString += ") ";
         console.log(queryString);
