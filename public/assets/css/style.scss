@@ -5,12 +5,24 @@ $background-color: #FFE882;
 $list-background: #FFFD77;
 
 body {
-    background-color: $background-color;
+    background-color: $list-background;
     color: $dark-text;
+}
+
+h1 {
+    font-size: 5.5rem !important;
 }
 
 .btn {
     background-color: $button-color !important;
+}
+
+.main-content {
+    background-color: $background-color;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px;
 }
 
 #btn-sml {
@@ -77,6 +89,29 @@ li {
     float: right;
 }
 
+.lettuce {
+    height: 20px;
+    margin: 30px -20px 0px -20px;
+    background-color: rgb(33, 172, 33);
+}
+
+.cheese {
+    height: 15px;
+    margin: 0 -20px;
+    background-color: rgb(255, 217, 0);
+}
+
+.ketchup {
+    height: 10px;
+    margin: 0 -20px;
+    background-color: red;
+}
+.burger {
+    height: 80px;
+    background-color: rgb(94, 20, 20);
+    margin: 0 -20px 30px -20px;
+}
+
 .burger-add {
     display: flex;
     border: 1px solid #d1d1d1;
@@ -93,5 +128,6 @@ li {
     .burger-add {
         width: 100%;
         padding: 20px;
+        flex-direction: column;
     }
 }
