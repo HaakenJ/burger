@@ -82,6 +82,7 @@ li {
   width: 50%;
   margin: 0 auto;
   padding: 50px;
+  background-color: #FFFD77;
 }
 
 @media only screen and (max-width: 768px) {
