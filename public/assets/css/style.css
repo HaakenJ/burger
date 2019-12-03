@@ -83,4 +83,17 @@ li {
   margin: 0 auto;
   padding: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .burger-lists {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .burger-add {
+    width: 100%;
+    padding: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

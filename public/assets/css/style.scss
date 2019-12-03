@@ -84,3 +84,13 @@ li {
     margin: 0 auto;
     padding: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+    .burger-lists {
+        flex-direction: column;
+    }
+    .burger-add {
+        width: 100%;
+        padding: 20px;
+    }
+}
