@@ -23,6 +23,7 @@ h1 {
     margin: 0 auto;
     margin-bottom: 50px;
     padding: 20px;
+    border-radius: 200px;
 }
 
 #btn-sml {
@@ -83,6 +84,7 @@ li {
 .burger-lists {
     display: flex;
     justify-content: space-around;
+    margin-top: 40px;
 }
 
 .change-devoured {
@@ -119,15 +121,23 @@ li {
     margin: 0 auto;
     padding: 50px;
     background-color: $list-background;
+    border-radius: 100px;
 }
 
 @media only screen and (max-width: 768px) {
+    .main-content {
+        border-radius: 75px;
+    }
+
     .burger-lists {
         flex-direction: column;
+        margin-top: 0;
     }
     .burger-add {
         width: 100%;
         padding: 20px;
+        border-radius: 75px;
         flex-direction: column;
+        text-align: center;
     }
 }
